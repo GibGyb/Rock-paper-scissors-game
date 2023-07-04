@@ -11,7 +11,7 @@ const getUserChoice = (userInput) => {
     return "Error input";
   }
 };
-// console.log(getUserChoice('rock'));
+// **console.log(getUserChoice('rock'));
 
 const getComputerChoice = () => {
   let randomNumber = Math.floor(Math.random() * 3);
